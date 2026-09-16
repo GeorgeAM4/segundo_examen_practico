@@ -12,6 +12,6 @@ a, b = 0, 1
 for _ in range(n):
     fibonacci.append(a)
     a, b = b, a + b
-print(f"\nlos primeros {n} términos de la sucesion de fibonacci son:")
+print(f"\nlos primeros {n} terminos de la sucesion de fibonaci son:")
 print(" -> ".join(map(str, fibonacci)))
 
