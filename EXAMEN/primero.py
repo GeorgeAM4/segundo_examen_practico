@@ -1,12 +1,12 @@
 while True:
     try:
-        n = int(input("Ingrese un número entero N (mayor a 0): "))
+        n = int(input("inngrese un numero entero (mayor a 0): "))
         if n > 0:
             break
         else:
-            print("Error: El número debe ser mayor a 0. Intente nuevamente.\n")
+            print("error el numero debe ser mayor a 0 intente nuevamente.\n")
     except ValueError:
-        print("Error: Debe ingresar un número entero válido.\n")
+        print("error debe ingresar un número entero valido.\n")
 fibonacci = []
 a, b = 0, 1
 for _ in range(n):
